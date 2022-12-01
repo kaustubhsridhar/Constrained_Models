@@ -1,0 +1,22 @@
+{
+    "CameraRGB": 0,
+    "car range": [
+        30,
+        60
+    ],
+    "fov": 100,
+    "height": 600,
+    "lateral_noise_percentage": 0,
+    "longitudinal_noise_percentage": 0,
+    "pedestrian range": [
+        50,
+        100
+    ],
+    "set_of_weathers": [
+        1,
+        3,
+        6,
+        8
+    ],
+    "width": 800
+}

@@ -1,0 +1,4 @@
+/home/ksridhar/Constrained_World_Models/CARLA/data-collector/carla/agent/modules/waypointer.py:188: RuntimeWarning: invalid value encountered in true_divide
+  vector_dir = ((last_pos - first_pos) / LA.norm(last_pos - first_pos))
+/home/ksridhar/Constrained_World_Models/CARLA/data-collector/carla/agent/modules/utils.py:7: RuntimeWarning: invalid value encountered in true_divide
+  return vec / dist, dist

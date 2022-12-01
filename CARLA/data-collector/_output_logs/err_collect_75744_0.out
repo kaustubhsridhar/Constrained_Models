@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "collect.py", line 265, in collect
+    measurements, sensor_data = client.read_data()
+  File "/home/ksridhar/Constrained_World_Models/CARLA/data-collector/carla/client.py", line 121, in read_data
+    data = self._stream_client.read()
+  File "/home/ksridhar/Constrained_World_Models/CARLA/data-collector/carla/tcp.py", line 73, in read
+    header = self._read_n(4)
+  File "/home/ksridhar/Constrained_World_Models/CARLA/data-collector/carla/tcp.py", line 87, in _read_n
+    data = self._socket.recv(length)
+KeyboardInterrupt

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "collect.py", line 483, in <module>
+    main()
+  File "collect.py", line 472, in main
+    collect(client, args)
+  File "collect.py", line 339, in collect
+    settings_module, args.debug)
+  File "collect.py", line 164, in reset_episode
+    carla_game.set_objective(player_start_spots[random_pose[1]])
+IndexError: list index out of range

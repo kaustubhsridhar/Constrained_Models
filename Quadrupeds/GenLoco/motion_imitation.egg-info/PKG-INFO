@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: motion-imitation
+Version: 0.0.6
+Summary: Motion Imitation and MPC with python bindings for MPC using the osqp solver
+Home-page: https://github.com/google-research/motion_imitation
+Author: Erwin Coumans
+Author-email: erwincoumans@google.com
+License: mixed
+Keywords: robotics,control,physics simulation
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: zlib/libpng License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Framework :: Robot Framework
+License-File: LICENSE.txt
+
+Motion Imitation and MPC with python bindings for MPC using the PyBullet and the QPOASES and OSQP solver

@@ -1,0 +1,637 @@
+WARNING (theano.tensor.blas): Using NumPy C-API based implementation for BLAS functions.
+pybullet build time: Oct 11 2021 20:59:39
+num of nodes = 2000 and num of edges = 2065
+num of nodes = 2000 and num of edges = 2065
+num of nodes = 2000 and num of edges = 2065
+num of nodes = 2000 and num of edges = 2065
+train epoch=0, loader_type='Both', approx_losses.avg=0.09981270226199315, constraint_losses.avg=0.05858675320063679
+------------------------- test Main, avg_test_AL=0.012946300904808162, avg_test_CL=0.012945986965429736, max_test_CL=0.04461875185370445
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012946300904808162, avg_test_CL_un_norm=0.012945986965429736, max_test_CL_un_norm=0.04461875185370445
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.6719036949794262e-12, max_test_CL=6.149960315310343e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.6719036949794262e-12, max_test_CL_un_norm=6.149960315310343e-12
+train epoch=1, loader_type='Both', approx_losses.avg=0.1729739157404639, constraint_losses.avg=0.10297702955602163
+------------------------- test Main, avg_test_AL=0.012823094530012732, avg_test_CL=0.01282278249441975, max_test_CL=0.04443192109465599
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012823094530012732, avg_test_CL_un_norm=0.01282278249441975, max_test_CL_un_norm=0.04443192109465599
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=2, loader_type='Both', approx_losses.avg=0.15631482655709503, constraint_losses.avg=0.09312521066695978
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=3, loader_type='Both', approx_losses.avg=0.15684082926808285, constraint_losses.avg=0.09346973117514487
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=4, loader_type='Both', approx_losses.avg=0.15685172950928924, constraint_losses.avg=0.09347517096231907
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=5, loader_type='Both', approx_losses.avg=0.1568408301562619, constraint_losses.avg=0.09346973183980117
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=6, loader_type='Both', approx_losses.avg=0.15684083014036732, constraint_losses.avg=0.09346973183980117
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=7, loader_type='Both', approx_losses.avg=0.15684083014036732, constraint_losses.avg=0.09346973183980117
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=8, loader_type='Both', approx_losses.avg=0.15684083014036732, constraint_losses.avg=0.09346973183980117
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=9, loader_type='Both', approx_losses.avg=0.15684083014036732, constraint_losses.avg=0.09346973180801203
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=10, loader_type='Both', approx_losses.avg=0.1568408300926836, constraint_losses.avg=0.09346973179211746
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=11, loader_type='Both', approx_losses.avg=0.15684083006089447, constraint_losses.avg=0.09346973179211746
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=12, loader_type='Both', approx_losses.avg=0.15684082997347432, constraint_losses.avg=0.09346973176032831
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=13, loader_type='Both', approx_losses.avg=0.1568408299257906, constraint_losses.avg=0.09346973168085546
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=14, loader_type='Both', approx_losses.avg=0.15684082979068675, constraint_losses.avg=0.0934697316490663
+------------------------- test Main, avg_test_AL=0.0125836472083478, avg_test_CL=0.012583335876776723, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.0125836472083478, avg_test_CL_un_norm=0.012583335876776723, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=15, loader_type='Both', approx_losses.avg=0.1568408295363736, constraint_losses.avg=0.09346973150601516
+------------------------- test Main, avg_test_AL=0.012583647211249263, avg_test_CL=0.012583335879619007, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012583647211249263, avg_test_CL_un_norm=0.012583335879619007, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=16, loader_type='Both', approx_losses.avg=0.15684082863038298, constraint_losses.avg=0.09346973106096715
+------------------------- test Main, avg_test_AL=0.012583647256647524, avg_test_CL=0.01258333592812175, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012583647256647524, avg_test_CL_un_norm=0.01258333592812175, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=17, loader_type='Both', approx_losses.avg=0.15684081877186884, constraint_losses.avg=0.09346972610009938
+------------------------- test Main, avg_test_AL=0.012583663484946982, avg_test_CL=0.01258335218129672, max_test_CL=0.0439760684967041
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012583663484946982, avg_test_CL_un_norm=0.01258335218129672, max_test_CL_un_norm=0.0439760684967041
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=18, loader_type='Both', approx_losses.avg=0.16025930348486922, constraint_losses.avg=0.09518042349832855
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=19, loader_type='Both', approx_losses.avg=0.159507978004726, constraint_losses.avg=0.0948046985786915
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=20, loader_type='Both', approx_losses.avg=0.159507978004726, constraint_losses.avg=0.0948046985786915
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=21, loader_type='Both', approx_losses.avg=0.159507978004726, constraint_losses.avg=0.0948046985786915
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=22, loader_type='Both', approx_losses.avg=0.159507978004726, constraint_losses.avg=0.0948046985786915
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=23, loader_type='Both', approx_losses.avg=0.159507978004726, constraint_losses.avg=0.0948046985786915
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=24, loader_type='Both', approx_losses.avg=0.159507978004726, constraint_losses.avg=0.0948046985786915
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=25, loader_type='Both', approx_losses.avg=0.159507978004726, constraint_losses.avg=0.0948046985786915
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=26, loader_type='Both', approx_losses.avg=0.159507978004726, constraint_losses.avg=0.0948046985786915
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=27, loader_type='Both', approx_losses.avg=0.159507978004726, constraint_losses.avg=0.09480469845153493
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=28, loader_type='Both', approx_losses.avg=0.159507978004726, constraint_losses.avg=0.09480469845153493
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=29, loader_type='Both', approx_losses.avg=0.159507978004726, constraint_losses.avg=0.09480469845153493
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=30, loader_type='Both', approx_losses.avg=0.1595079778775694, constraint_losses.avg=0.09480469845153493
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=31, loader_type='Both', approx_losses.avg=0.1595079778775694, constraint_losses.avg=0.09480469832437835
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=32, loader_type='Both', approx_losses.avg=0.15950797762325625, constraint_losses.avg=0.09480469781575206
+------------------------- test Main, avg_test_AL=0.012688443274120137, avg_test_CL=0.012688115906259557, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.012688443274120137, avg_test_CL_un_norm=0.012688115906259557, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=33, loader_type='Both', approx_losses.avg=0.1642840275018442, constraint_losses.avg=0.09597179767420821
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=34, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=35, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=36, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=37, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=38, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=39, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=40, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=41, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=42, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=43, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=44, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=45, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=46, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=47, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=48, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=49, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=50, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=51, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=52, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=53, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=54, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=55, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=56, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=57, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=58, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=59, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=60, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=61, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=62, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=63, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=64, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=65, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=66, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=67, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=68, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=69, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=70, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=71, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=72, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=73, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=74, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=75, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=76, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=77, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=78, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=79, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=80, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=81, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=82, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=83, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=84, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=85, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=86, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=87, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=88, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=89, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=90, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=91, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=92, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=93, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=94, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=95, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=96, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=97, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=98, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=99, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=100, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=101, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=102, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=103, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=104, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=105, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=106, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=107, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=108, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=109, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=110, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=111, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=112, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=113, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=114, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=115, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=116, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=117, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=118, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=119, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=120, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=121, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=122, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=123, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=124, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=125, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476
+------------------------- test Main, avg_test_AL=0.01268844372063606, avg_test_CL=0.012688116331921512, max_test_CL=0.04413564130663872
+------------------------- test un normalized Main, avg_test_AL_un_norm=0.01268844372063606, avg_test_CL_un_norm=0.012688116331921512, max_test_CL_un_norm=0.04413564130663872
+------------------------- test Omega, avg_test_AL=0, avg_test_CL=1.5261586917429602e-12, max_test_CL=5.81353281486896e-12
+------------------------- test un normalized Omega, avg_test_AL_un_norm=0, avg_test_CL_un_norm=1.5261586917429602e-12, max_test_CL_un_norm=5.81353281486896e-12
+train epoch=126, loader_type='Both', approx_losses.avg=0.15514416544129733, constraint_losses.avg=0.08683886908025476

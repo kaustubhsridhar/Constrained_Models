@@ -1,0 +1,18 @@
+/home/ksridhar/Constrained_World_Models/CARLA/data-collector/carla/agent/modules/waypointer.py:188: RuntimeWarning: invalid value encountered in true_divide
+  vector_dir = ((last_pos - first_pos) / LA.norm(last_pos - first_pos))
+/home/ksridhar/Constrained_World_Models/CARLA/data-collector/carla/agent/modules/utils.py:7: RuntimeWarning: invalid value encountered in true_divide
+  return vec / dist, dist
+Traceback (most recent call last):
+  File "collect.py", line 483, in <module>
+    main()
+  File "collect.py", line 472, in main
+    collect(client, args)
+  File "collect.py", line 331, in collect
+    writer.delete_episode(args.data_path, str(episode_number-1).zfill(5))
+  File "/home/ksridhar/Constrained_World_Models/CARLA/data-collector/modules/data_writer.py", line 93, in delete_episode
+    shutil.rmtree(os.path.join(dataset_path, 'episode_' + episode_number))
+  File "/home/ksridhar/anaconda3/envs/carla_data/lib/python3.6/shutil.py", line 471, in rmtree
+    onerror(os.lstat, path, sys.exc_info())
+  File "/home/ksridhar/anaconda3/envs/carla_data/lib/python3.6/shutil.py", line 469, in rmtree
+    orig_st = os.lstat(path)
+FileNotFoundError: [Errno 2] No such file or directory: '../carla-datasets/episode_00010'
