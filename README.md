@@ -38,7 +38,7 @@ python collect_hover_data.py
 ```
 
 ## AP 
-Automatic
+Automatic (but for more info please see AP/insulin_matlab/Readme.md)
 
 ## Quadrupeds (PyBullet)
 ### Conda Environment
