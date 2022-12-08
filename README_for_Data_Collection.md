@@ -61,7 +61,7 @@ bash save_data.sh
 ```
 cd AP/
 ```
-Adjust model in main.py and then run.
+Adjust mode in main.py and then run.
 ```
 python main.py
 ```
