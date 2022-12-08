@@ -6,11 +6,17 @@ Our constrained neurosymbolic models outperform the Vanilla and Augmented Lgarna
 * Artificial Pancreas (AP) -- Conformance of AP models to ARMAX model that encodes increasing insulin-decreases glucose constraint.
 * PyBullet Drones -- Conformance of drone models to quadrotor dynamics with emphasis on hover.
 
-| ![](gifs/predictions_at_rest_0_seed_20timesteps.gif) | 
+| <img src="content/CARLA_Plots.png" width="800"> | 
 |:--:| 
-| *Augmented Lagrangian and Vanilla methods predict that a car starting from the origin at rest will drift when given zero control inputs. Constrained models accurately predict little to no movement.* |
+| *Overall conformance to unicycle model: Constrained models obtain similar or slightly worse approximation error (expected in light of Theorem 6) but 3 orders-of-magnitude reduction in constraint loss.* |
+| ![](content/predictions_at_rest_0_seed_20timesteps.gif) | 
+|:--:| 
+| *Analysis of model predictions at-rest: Augmented Lagrangian and Vanilla methods predict that a car starting from the origin at rest will drift when given zero control inputs. Constrained models accurately predict little to no movement.* |
 
-| <img src="gifs/AP_table.png" width="350"> | 
+| <img src="content/AP_Plots.png" width="800"> | 
+|:--:| 
+| *Overall conformance to ARMAX model: Constrained models obtain slightly higher approximation error (expected in light of Theorem 6) but 2 orders-of-magnitude reduction in constraint loss.* |
+| <img src="content/AP_table.png" width="350"> | 
 |:--:| 
 | *Augmented Lagrangian and Vanilla methods, unlike Constrained models, violate "increasing insulin, decreases glucose" constraint.* |
 
