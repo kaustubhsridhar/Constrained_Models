@@ -96,5 +96,7 @@ else:
         test(model=model, testloader=testloader_Omega, device=device, method=args.method, no_tqdm=args.no_tqdm, testloader_type='Omega', un_normalizer=trainset.output_un_normalizer, print_traces=True, input_un_normalizer=trainset.input_un_normalizer,
             voronoi_bounds=trainset.voronoi_bounds if args.method == 'Constrained' else None,
             gng=trainset.gng if args.method == 'Constrained' else None,)
+    elif args.env == 'CARLA':
+        model.load_state_dict(torch.load(model_filename, map_location=device))
 
 

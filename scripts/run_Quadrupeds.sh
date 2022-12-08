@@ -6,11 +6,11 @@ ENV=Quadrupeds
 MOREINFO=
 GPU=1
 
-# for METHOD in Lagrangian
-# do
-#     nohup python -u train.py --no_tqdm --env ${ENV} --method ${METHOD} --gpu ${GPU} --seed ${SEED} > logs/${ENV}${MOREINFO}_${METHOD}_seed${SEED}.log &
-#     # nohup python -u train.py --no_tqdm --env ${ENV} --method ${METHOD} --gpu ${GPU} --seed ${SEED} --augmented > logs/${ENV}${MOREINFO}_Augmented${METHOD}_seed${SEED}.log &
-# done 
+for METHOD in Lagrangian
+do
+    nohup python -u train.py --no_tqdm --env ${ENV} --method ${METHOD} --gpu ${GPU} --seed ${SEED} > logs/${ENV}${MOREINFO}_${METHOD}_seed${SEED}.log &
+    # nohup python -u train.py --no_tqdm --env ${ENV} --method ${METHOD} --gpu ${GPU} --seed ${SEED} --augmented > logs/${ENV}${MOREINFO}_Augmented${METHOD}_seed${SEED}.log &
+done 
 
 for DELTA in 0.2
 do

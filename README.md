@@ -1,61 +1,9 @@
-# Data Collection
-## Car (CARLA)
-### Conda Environment
-```
-cd CARLA/data_collector
-conda env create -f requirements.yml
-conda activate carla_data
-```
+# Data and Models
+The instructions to collect data and train the ARMAX constraint model for AP can be found at [README_for_Data_Collection.md](README_for_Data_Collection.md).
 
-### Start CarlaGear server (first terminal)
-Donwload the server from here: https://drive.google.com/file/d/1X52PXqT0phEi5WEWAISAQYZs-Ivx4VoE/view
-```
-cd CARLA/CarlaGear
-sh CarlaUE4.sh /Game/Maps/Town01 -windowed -world-port=2000  -benchmark -fps=10
-```
+Alternatively, the processed data and trained models can be found inside each case study's directory at [this drive folder](https://drive.google.com/drive/folders/1L-aX46Xpkj7-1dps8lGuwRSAbENTX3lD?usp=sharing).
 
-### Data Collection Code (second terminal)
-```
-cd ../data-collector/
-python -u collect.py --data-path ../carla-datasets-Town01
-```
-
-## Drones (GYM-PYBULLET-DRONES)
-### Conda Environment
-```
-conda create -n drones python=3.8
-conda activate drones
-cd Drones/gym-pybullet-drones/
-pip install -e .
-```
-
-### Data Collection Code
-N Crazyflie X drones of different length_scaling_factors and mass_scaling_factors in circular flight and hover.
-```
-cd Drones/gym-pybullet-drones/gym_pybullet_drones/examples
-python collect_data.py
-python collect_hover_data.py
-```
-
-## AP 
-Automatic (but for more info please see AP/insulin_matlab/Readme.md)
-
-## Quadrupeds (PyBullet)
-### Conda Environment
-```
-conda create -n Quadrupeds python=3.7
-conda activate Quadrupeds
-cd Quadrupeds/GenLoco
-python setup.py install --user
-sudo apt install libopenmpi-dev
-pip install -r requirements.txt
-```
-
-### Data Collection Code
-```
-cd Quadrupeds/GenLoco
-bash save_data.sh
-```
+The raw data is also available inside each case study's directory at [this drive folder](https://drive.google.com/drive/folders/1mBGhZE1qdIXdwtYmAOgHUMsdHiW0YbxP?usp=sharing).
 
 # Training Constrained Neural Network Dynamics Models
 NAME_OF_ENV can be one of {Carla, Drones, AP, Quadrupeds}
@@ -64,3 +12,7 @@ bash run_Vanillas.sh
 bash run_{NAME_OF_ENV}.sh
 ```
 
+AP delta monotonicity analysis
+```
+bash run_delta_monotonicity.sh
+```
