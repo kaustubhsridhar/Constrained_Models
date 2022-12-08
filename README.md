@@ -3,8 +3,6 @@ This repository contains the code for the paper available at https://arxiv.org/a
 
 Our constrained neurosymbolic models outperform the Vanilla and Augmented Lgarnagina methods with guarantees on conformance to natural constraints in three case studies
 * CARLA -- Conformance of a vehicle model to unicycle dynamics with emphasis on no drift at-rest.
-* Artificial Pancreas (AP) -- Conformance of AP models to ARMAX model that encodes increasing insulin-decreases glucose constraint.
-* PyBullet Drones -- Conformance of drone models to quadrotor dynamics with emphasis on hover.
 
 | <img src="content/CARLA_Plots.png" width="600"> | 
 |:--:| 
@@ -12,13 +10,16 @@ Our constrained neurosymbolic models outperform the Vanilla and Augmented Lgarna
 | <img src="content/predictions_at_rest_0_seed_20timesteps.gif" width="600"> | 
 | *Analysis of model predictions at-rest: Augmented Lagrangian and Vanilla methods predict that a car starting from the origin at rest will drift when given zero control inputs. Constrained models accurately predict little to no movement.* |
 
+* Artificial Pancreas (AP) -- Conformance of AP models to ARMAX model that encodes increasing insulin-decreases glucose constraint.
+
 | <img src="content/AP_Plots.png" width="600"> | 
 |:--:| 
 | *Overall conformance to ARMAX model: Constrained models obtain slightly higher approximation error (expected in light of Theorem 6) but 2 orders-of-magnitude reduction in constraint loss.* |
 | <img src="content/AP_table.png" width="350"> | 
 | *Augmented Lagrangian and Vanilla methods, unlike Constrained models, violate "increasing insulin, decreases glucose" constraint.* |
 
-
+* PyBullet Drones -- Conformance of drone models to quadrotor dynamics with emphasis on hover.
+See our paper for the complete set of results.
 
 # Data and Models
 The instructions to collect data and train the ARMAX constraint model for AP can be found at [README_for_Data_Collection.md](README_for_Data_Collection.md).
