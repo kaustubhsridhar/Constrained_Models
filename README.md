@@ -10,7 +10,7 @@ Our constrained neurosymbolic models outperform the Vanilla and Augmented Lgarna
 |:--:| 
 | *Augmented Lagrangian and Vanilla methods predict that a car starting from the origin at rest will drift when given zero control inputs. Constrained models accurately predict little to no movement.* |
 
-| <img src="gifs/AP_table.png" width="500"> | 
+| <img src="gifs/AP_table.png" width="350"> | 
 |:--:| 
 | *Augmented Lagrangian and Vanilla methods, unlike Constrained models, violate "increasing insulin, decreases glucose" constraint.* |
 
