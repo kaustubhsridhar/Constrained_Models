@@ -427,7 +427,7 @@ def plot_at_rest(mems, seed, N, aug):
         os.makedirs(f'figs', exist_ok=True)
         extra = f'_no_constrained' if len(mems) == 0 else f''
         os.makedirs(f'figs/predictions_at_rest_{seed}_seed{extra}_{N}timesteps/', exist_ok=True)
-        plt.savefig(f'figs/predictions_at_rest_{seed}_seed{extra}_{N}timesteps/{num}.png')
+        plt.savefig(f'figs/predictions_at_rest_{seed}_seed{extra}_{N}timesteps.png')
     
     return
 
