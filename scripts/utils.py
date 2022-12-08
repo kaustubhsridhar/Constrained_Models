@@ -59,6 +59,7 @@ import matplotlib
 from collections import defaultdict
 import pandas as pd
 import seaborn as sns
+from matplotlib.animation import FuncAnimation
 sns.set_theme(style="darkgrid")
 
 SMALL_SIZE = 12
@@ -303,46 +304,131 @@ def plotbars(env, aug, mems, seeds, unnorm, boundscheduling, delta=0):
         os.makedirs(f'figs', exist_ok=True)
         plt.savefig(f'figs/{env}_bars_{unnorm}unnorm_{len(what_to_plot)}.png', format='png', bbox_inches="tight")
 
-def plot_at_rest(mems, seed, aug):
+def plot_gif_at_rest(mems, seed, N, aug):
     # plt.rc('font', size=BIGGER_SIZE)          # controls default text sizes
     # plt.rc('axes', titlesize=BIGGER_SIZE)     # fontsize of the axes title
     # plt.rc('axes', labelsize=BIGGER_SIZE)    # fontsize of the x and y labels
-    # plt.rc('xtick', labelsize=MEDIUM_SIZE-3)    # fontsize of the tick labels
-    # plt.rc('ytick', labelsize=MEDIUM_SIZE-3)    # fontsize of the tick labels
-    plt.rc('legend', fontsize=MEDIUM_SIZE)    # legend fontsize
+    # plt.rc('xtick', labelsize=MEDIUM_SIZE)    # fontsize of the tick labels
+    # plt.rc('ytick', labelsize=MEDIUM_SIZE)    # fontsize of the 
+    plt.rc('legend', fontsize=MEDIUM_SIZE-1)    # legend fontsize# plt.rc('legend', fontsize=SMALL_SIZE)    # legend fontsize
     # plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
 
     methods = [f'Vanilla', f'Lagrangian']+[f'Constrained_{m}' for m in mems]
     data = {}
-    f, ax = plt.subplots(1, figsize=(6.5,5.2))
-    for method in methods:
-        if 'Constrained' in method:
-            npy_file_loc = f'../CARLA/data/saved_predictions_at_rest_{method}_memories_{seed}_seed.npy'
+
+    for num in range(N, 0, -1):
+        plt.figure(num)
+        f, ax = plt.subplots(1, figsize=(7.5, 6)) # (6.5,5.2)
+        for method in methods:
+            if 'Constrained' in method:
+                npy_file_loc = f'../CARLA/data/saved_predictions/saved_predictions_at_rest_{method}_memories_{seed}_seed_{N}timesteps.npy'
+            else:
+                npy_file_loc = f'../CARLA/data/saved_predictions/saved_predictions_at_rest_{method}_1000_memories_{seed}_seed_{N}timesteps.npy'
+            data[method] = np.load(npy_file_loc)
+            xs = data[method][:num, 0]
+            ys = data[method][:num, 1]
+            lw = 3.0
+            if seed == 0 and '_500' in method:
+                lw = 6.0
+
+            plt.plot(xs, ys, label=method, linewidth=lw)
+        if num == N:
+            ylims = ax.get_ylim()
+            xlims = ax.get_xlim()
         else:
-            npy_file_loc = f'../CARLA/data/saved_predictions_at_rest_{method}_1000_memories_{seed}_seed.npy'
-        data[method] = np.load(npy_file_loc)
-        xs = data[method][:, 0]
-        ys = data[method][:, 1]
-        lw = 3.0
-        if '_500' in method:
-            lw = 6.0
+            ax.set_ylim(ylims)
+            ax.set_xlim(xlims)
 
-        plt.plot(xs, ys, label=method, linewidth=lw)
-    ax.set(xlabel = f'x position (m)', xscale = f'symlog', ylabel = f'y position (m)', yscale = f'symlog')
-    
-    labels = ['Vanilla', 'Aug. Lagrangian']+[f'Constrained ({m})' for m in mems]
-    
-    if len(mems) == 0:
-        f.legend(labels, loc='lower center', bbox_to_anchor=(0.5,-0.1), ncol=2, bbox_transform=f.transFigure, facecolor='white')
-    else:
-        f.legend(labels, loc='upper right') 
-        # f.legend(labels, loc='center', bbox_to_anchor=(1.2,0.5), ncol=1, bbox_transform=f.transFigure, facecolor='white')
-    f.tight_layout()
+        ax.set(xlabel = f'x position (m)', xscale = f'symlog', ylabel = f'y position (m)', yscale = f'symlog')
+        # ax.tick_params(axis='x', rotation=60)
+        # ax.tick_params(axis='y', rotation=30)
+        if seed == 0:
+            lo = 8; up = 8
+            ax.set_xticks([-10**x for x in range(lo, 0, -2)] + [-10, 0, 10] + [10**x for x in range(2, up+2, 2)])
+            lo = 7; up = 9
+            ax.set_yticks([-10**x for x in range(lo, 0, -2)] + [-10, 0, 10] + [10**x for x in range(2, up+2, 2)])
+        elif seed==1:
+            lo = 10; up = 8
+            ax.set_xticks([-10**x for x in range(lo, 0, -2)] + [-10, 0, 10] + [10**x for x in range(2, up+2, 2)])
+            lo = 8; up = 9
+            ax.set_yticks([-10**x for x in range(lo, 0, -2)] + [-10, 0, 10] + [10**x for x in range(2, up+2, 2)])
 
-    os.makedirs(f'figs', exist_ok=True)
-    extra = f'_no_constrained' if len(mems) == 0 else f''
-    plt.savefig(f'figs/predictions_at_rest_{seed}_seed{extra}.png')
+        
+        labels = ['Vanilla', 'Augmented \n Lagrangian']+[f'Constrained \n ({m})' for m in mems]
+        
+        f.legend(labels, loc='center right', ncol=1) 
+        # f.legend(labels, loc='lower right', bbox_to_anchor=(0.75,0.2), ncol=2, bbox_transform=f.transFigure)#, facecolor='white')
+        f.tight_layout()
+
+        os.makedirs(f'figs', exist_ok=True)
+        extra = f'_no_constrained' if len(mems) == 0 else f''
+        os.makedirs(f'figs/predictions_at_rest_{seed}_seed{extra}_{N}timesteps/', exist_ok=True)
+        plt.savefig(f'figs/predictions_at_rest_{seed}_seed{extra}_{N}timesteps/{num}.png')
+    
+    return
+                
+
+def plot_at_rest(mems, seed, N, aug):
+    # plt.rc('font', size=BIGGER_SIZE)          # controls default text sizes
+    # plt.rc('axes', titlesize=BIGGER_SIZE)     # fontsize of the axes title
+    # plt.rc('axes', labelsize=BIGGER_SIZE)    # fontsize of the x and y labels
+    # plt.rc('xtick', labelsize=MEDIUM_SIZE)    # fontsize of the tick labels
+    # plt.rc('ytick', labelsize=MEDIUM_SIZE)    # fontsize of the 
+    plt.rc('legend', fontsize=MEDIUM_SIZE-1)    # legend fontsize# plt.rc('legend', fontsize=SMALL_SIZE)    # legend fontsize
+    # plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
+
+    methods = [f'Vanilla', f'Lagrangian']+[f'Constrained_{m}' for m in mems]
+    data = {}
+
+    for num in [N]:
+        plt.figure(num)
+        f, ax = plt.subplots(1, figsize=(7.5, 6)) # (6.5,5.2)
+        for method in methods:
+            if 'Constrained' in method:
+                npy_file_loc = f'../CARLA/data/saved_predictions/saved_predictions_at_rest_{method}_memories_{seed}_seed_{N}timesteps.npy'
+            else:
+                npy_file_loc = f'../CARLA/data/saved_predictions/saved_predictions_at_rest_{method}_1000_memories_{seed}_seed_{N}timesteps.npy'
+            data[method] = np.load(npy_file_loc)
+            xs = data[method][:num, 0]
+            ys = data[method][:num, 1]
+            lw = 3.0
+            if seed == 0 and '_500' in method:
+                lw = 6.0
+
+            plt.plot(xs, ys, label=method, linewidth=lw)
+        if num == N:
+            ylims = ax.get_ylim()
+            xlims = ax.get_xlim()
+        else:
+            ax.set_ylim(ylims)
+            ax.set_xlim(xlims)
+
+        ax.set(xlabel = f'x position (m)', xscale = f'symlog', ylabel = f'y position (m)', yscale = f'symlog')
+        # ax.tick_params(axis='x', rotation=60)
+        # ax.tick_params(axis='y', rotation=30)
+        if seed == 0:
+            lo = 8; up = 8
+            ax.set_xticks([-10**x for x in range(lo, 0, -2)] + [-10, 0, 10] + [10**x for x in range(2, up+2, 2)])
+            lo = 7; up = 9
+            ax.set_yticks([-10**x for x in range(lo, 0, -2)] + [-10, 0, 10] + [10**x for x in range(2, up+2, 2)])
+        elif seed==1:
+            lo = 10; up = 8
+            ax.set_xticks([-10**x for x in range(lo, 0, -2)] + [-10, 0, 10] + [10**x for x in range(2, up+2, 2)])
+            lo = 8; up = 9
+            ax.set_yticks([-10**x for x in range(lo, 0, -2)] + [-10, 0, 10] + [10**x for x in range(2, up+2, 2)])
+
+        
+        labels = ['Vanilla', 'Augmented \n Lagrangian']+[f'Constrained \n ({m})' for m in mems]
+        
+        f.legend(labels, loc='center right', ncol=1) 
+        # f.legend(labels, loc='lower right', bbox_to_anchor=(0.75,0.2), ncol=2, bbox_transform=f.transFigure)#, facecolor='white')
+        f.tight_layout()
+
+        os.makedirs(f'figs', exist_ok=True)
+        extra = f'_no_constrained' if len(mems) == 0 else f''
+        os.makedirs(f'figs/predictions_at_rest_{seed}_seed{extra}_{N}timesteps/', exist_ok=True)
+        plt.savefig(f'figs/predictions_at_rest_{seed}_seed{extra}_{N}timesteps/{num}.png')
+    
     return
 
-                
 
