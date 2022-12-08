@@ -325,6 +325,7 @@ class QuadrupedDataset(Dataset):
         self.family_of_dynamics = [spin_model_constraint(model, self.normalizers['x'], self.normalizers['next_x'], self.normalizers['u'])]
 
         self.output_un_normalizer = np.array([self.normalizers['next_x']])
+        # self.input_un_normalizer = np.array([self.normalizers['x']] + [self.normalizers['u']])
 
 class APDataset(Dataset):
     def __init__(self, data_dir=f'../AP/insulin_matlab', constraint_model_loc ='../AP/data/networks', save_dir=f'../AP/data', NumRobotsInEnv=1):

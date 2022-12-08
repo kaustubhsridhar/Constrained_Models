@@ -279,3 +279,45 @@ def get_voronoi_then_bounds(input, voronoi_bounds, gng):
     upper_bound = voronoi_bounds['up'][closest_node]
 
     return lower_bound, upper_bound
+
+
+def test_at_rest_for_N_timesteps(model, testloader, device, method, no_tqdm, testloader_type, un_normalizer, saveloc, print_traces=False, input_un_normalizer=None, voronoi_bounds=None, gng=None, N=10):
+    with torch.no_grad():
+        un_normalizer = torch.from_numpy(un_normalizer).to(device).reshape((1,3))
+        # input_un_normalizer = torch.from_numpy(input_un_normalizer).to(device) if input_un_normalizer is not None else 1 # for printing traces only
+
+        initial_state = np.array([[0, 0, 0]])
+        outputs = torch.from_numpy(initial_state).to(device).float()
+        zero_controls = torch.from_numpy(np.array([[0, 0]])).to(device).float()
+        all_states = [initial_state[0]]
+        for timestep in range(N): 
+            inputs = torch.cat( (outputs.clone(), zero_controls.clone()), axis=1)
+
+            if method == 'Constrained':
+                lower_bounds, upper_bounds = get_voronoi_then_bounds(inputs.detach().cpu().numpy(), voronoi_bounds, gng)
+                lower_bounds, upper_bounds = torch.from_numpy(lower_bounds).to(device).float(), torch.from_numpy(upper_bounds).to(device).float()
+                outputs = lower_bounds + alt_sigmoid(model(inputs)) * (upper_bounds - lower_bounds)
+            else:
+                outputs = model(inputs)
+
+            un_normalized_outputs = outputs * un_normalizer
+            # print(inputs.shape, outputs.shape, un_normalizer.shape, un_normalized_outputs.shape)
+            all_states.append(un_normalized_outputs.cpu().numpy()[0])
+
+    print(all_states)
+    all_states = np.array(all_states)
+    print(all_states.shape)
+
+    np.save(saveloc, all_states)
+    print(f'saved to {saveloc}')
+    return 
+
+        
+
+
+
+            
+
+            
+
+

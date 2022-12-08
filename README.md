@@ -16,3 +16,8 @@ AP delta monotonicity analysis
 ```
 bash run_delta_monotonicity.sh
 ```
+
+Carla prediction drift analysis
+```
+bash run_test_at_rest.sh
+```

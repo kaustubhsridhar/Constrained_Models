@@ -96,7 +96,11 @@ else:
         test(model=model, testloader=testloader_Omega, device=device, method=args.method, no_tqdm=args.no_tqdm, testloader_type='Omega', un_normalizer=trainset.output_un_normalizer, print_traces=True, input_un_normalizer=trainset.input_un_normalizer,
             voronoi_bounds=trainset.voronoi_bounds if args.method == 'Constrained' else None,
             gng=trainset.gng if args.method == 'Constrained' else None,)
-    elif args.env == 'CARLA':
+    elif args.env == 'Carla':
         model.load_state_dict(torch.load(model_filename, map_location=device))
+        test_at_rest_for_N_timesteps(model=model, testloader=testloader_Omega, device=device, method=args.method, no_tqdm=args.no_tqdm, testloader_type='Omega', un_normalizer=trainset.output_un_normalizer, print_traces=True,
+            voronoi_bounds=trainset.voronoi_bounds if args.method == 'Constrained' else None,
+            gng=trainset.gng if args.method == 'Constrained' else None, N=10, 
+            saveloc = f'{trainset.dir}/saved_predictions_at_rest_{args.method}_{args.num_memories}_memories_{args.seed}_seed.npy')
 
 
