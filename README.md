@@ -8,11 +8,13 @@ Our constrained neurosymbolic models outperform the Vanilla and Augmented Lgarna
 
 | ![carla-car-at-rest.gif](gifs/predictions_at_rest_0_seed_20timesteps.gif) | 
 |:--:| 
-| *Augmented Lgarnagina and Vanilla methods predict that a car starting from the origin at rest will drift when given zero control inputs. Constrained models accurately predict little to no movement.* |
+| *Augmented Lagrangian and Vanilla methods predict that a car starting from the origin at rest will drift when given zero control inputs. Constrained models accurately predict little to no movement.* |
 
-| ![AP_table.png](gifs/AP_table.png) | 
+| ![AP_table.png](gifs/AP_table.png =100x20) | 
 |:--:| 
-| *Augmented Lgarnagina and Vanilla methods, unlike Constrained models, violate "increasing insulin, decreases glucose" constraint.* |
+| *Augmented Lagrangian and Vanilla methods, unlike Constrained models, violate "increasing insulin, decreases glucose" constraint.* |
+
+
 
 # Data and Models
 The instructions to collect data and train the ARMAX constraint model for AP can be found at [README_for_Data_Collection.md](README_for_Data_Collection.md).
