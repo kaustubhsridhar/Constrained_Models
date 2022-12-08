@@ -10,14 +10,12 @@ Our constrained neurosymbolic models outperform the Vanilla and Augmented Lgarna
 |:--:| 
 | *Overall conformance to unicycle model: Constrained models obtain similar or slightly worse approximation error (expected in light of Theorem 6) but 3 orders-of-magnitude reduction in constraint loss.* |
 | <img src="content/predictions_at_rest_0_seed_20timesteps.gif" width="600"> | 
-|:--:| 
 | *Analysis of model predictions at-rest: Augmented Lagrangian and Vanilla methods predict that a car starting from the origin at rest will drift when given zero control inputs. Constrained models accurately predict little to no movement.* |
 
 | <img src="content/AP_Plots.png" width="600"> | 
 |:--:| 
 | *Overall conformance to ARMAX model: Constrained models obtain slightly higher approximation error (expected in light of Theorem 6) but 2 orders-of-magnitude reduction in constraint loss.* |
 | <img src="content/AP_table.png" width="350"> | 
-|:--:| 
 | *Augmented Lagrangian and Vanilla methods, unlike Constrained models, violate "increasing insulin, decreases glucose" constraint.* |
 
 
