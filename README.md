@@ -1,4 +1,4 @@
-# ENFORCER = Guarant*e*ed Co*nfor*mance of Neurosymboli*c* Mod*e*ls to Natu*r*al Constraints
+# ENFORCER = guarantEed coNFORmanCE of neuRosymbolic models to natural constraints
 This repository contains the code for the paper available at https://arxiv.org/abs/2212.01346.
 
 Our constrained neurosymbolic models outperform the Vanilla and Augmented Lgarnagina methods with guarantees on conformance to natural constraints in three case studies
