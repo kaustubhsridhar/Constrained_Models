@@ -57,4 +57,4 @@ bash run_test_at_rest.sh
 Some helpful information
 * scripts/train.py is the main file. Please start here.
 * scripts/dataset.py contains all dataset classes to both load labelled D datasets and create unlabelled \Omega datasets. These classes also create memories (via neupy's neural gas) in the input space and compute all lower and upper bounds for each voronoi cell in the input space (where each cell corresponds to one memory).
-* scripts/model.py contains the models and trainers. The trainers contain the symbolic wrapper around the neural network. The loss function can be augmented lagrangian or simple MSE.
+* scripts/model.py contains the models and trainers. The trainers contain the [symbolic wrapper](scripts/model.py#L118) around the neural network. The loss function can be augmented lagrangian or simple MSE.
