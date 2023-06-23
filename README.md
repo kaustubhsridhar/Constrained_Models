@@ -29,8 +29,17 @@ Alternatively, the processed data and trained models can be found inside each ca
 The raw data is also available inside each case study's directory at [this drive folder](https://drive.google.com/drive/folders/1mBGhZE1qdIXdwtYmAOgHUMsdHiW0YbxP?usp=sharing).
 
 # Training Constrained Neural Network Dynamics Models
-NAME_OF_ENV can be one of {Carla, Drones, AP, Quadrupeds}
+Setup conda env:
 ```
+conda create -n DL_env python=3.8
+conda activate DL_env
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+pip install neupy scipy pybullet
+```
+
+Train vanilla and constrained neural network dynamics models as follows where NAME_OF_ENV can be one of {Carla, Drones, AP, Quadrupeds}
+```
+cd scripts
 bash run_Vanillas.sh
 bash run_{NAME_OF_ENV}.sh
 ```
@@ -44,3 +53,8 @@ Carla prediction drift analysis
 ```
 bash run_test_at_rest.sh
 ```
+
+Some helpful information
+* scripts/train.py is the main file. Please start here.
+* scripts/dataset.py contains all dataset classes to both load labelled D datasets and create unlabelled \Omega datasets. These classes also create memories (via neupy's neural gas) in the input space and compute all lower and upper bounds for each voronoi cell in the input space (where each cell corresponds to one memory).
+* scripts/model.py contains the models and trainers. The trainers contain the symbolic wrapper around the neural network. The loss function can be augmented lagrangian or simple MSE.
