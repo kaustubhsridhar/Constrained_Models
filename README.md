@@ -1,5 +1,5 @@
 # Guaranteed Conformance of Neurosymbolic Models to Natural Constraints (ENFORCER)
-This repository contains the code for the paper available at https://arxiv.org/abs/2212.01346.
+[arXiv](https://arxiv.org/abs/2212.01346) | [Video](https://youtu.be/jBXNJmArb5M)
 
 <p align="center"><img src="content/neurosymbolic.jpeg" width="300"></p>
 
